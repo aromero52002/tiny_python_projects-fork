@@ -28,7 +28,6 @@ def get_args():
 # --------------------------------------------------
 def main():
     """Make a jazz noise here"""
-
     args = get_args()
     items = args.item
     num = len(items)
@@ -45,8 +44,10 @@ def main():
         items[-1] = 'and ' + items[-1]
         bringing = ', '.join(items)
 
-   # print('You are bringing {}.'.format(bringing))
-print(f'You are bringing {bringing}.')
+    print(f'You are bringing {bringing}.')
+    print(__name__)
+
+
 # --------------------------------------------------
 if __name__ == '__main__':
     main()

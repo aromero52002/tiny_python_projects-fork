@@ -7,7 +7,7 @@ import argparse
 def get_args():
     parser = argparse.ArgumentParser(description='Say hello')
     parser.add_argument('-n', '--name', metavar='name',
-                        default='Drew', help='Name to greet')
+                        default='World', help='Name to greet')
     return parser.parse_args()
 
 

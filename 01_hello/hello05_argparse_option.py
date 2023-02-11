@@ -5,6 +5,6 @@ import argparse
 
 parser = argparse.ArgumentParser(description='Say hello')
 parser.add_argument('-n', '--name', metavar='name',
-                    default='Drew', help='Name to greet')
+                    default='World', help='Name to greet')
 args = parser.parse_args()
 print('Hello, ' + args.name + '!')
